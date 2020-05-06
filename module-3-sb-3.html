@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Lab No. 4</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lyrics</title>
+</head>
 
-    <body>
-        <div class="container">
-            <div class="row mt-5">
-                <div class="col-12">
-                    <h1>Lab No. 4: My Song Lyrics</h1>
-                    <div id="lyrics"></div>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="banner">
+                    <h1>LyricHub</h1>
+                    <h2>The number one site for a specific set of lyrics</h2>
                 </div>
+                <h1>Run to the Hills</h1>
+                <h3>Iron Maiden</h3>
+                <div class="album">
+                    <img src="images/number_of_the_beast.jpg" alt="">
+                    <p class="info">"Run to the Hills" is a song by the English heavy metal band Iron Maiden. It was released as their sixth single and the first from the band's third studio album, The Number of the Beast (1982). It is their first single with Bruce Dickinson as vocalist. Credited solely to the band's bassist, Steve Harris, although significant contributions were made by Dickinson, it remains one of their most popular songs, with VH1 ranking it No. 27 on their list of the 40 Greatest Metal Songs and No. 14 on their list of the Greatest Hard Rock Songs.<br><span class="dots">    ...........<br></span><button id="readMore" onclick="read()">Read More</button></p>
+                    <p class="info moreText">This song documents the beginning of settler contact as Europeans began arriving on the shores of American Indigenous territories and traditional lands. The song describes from both perspectives what is occurring in the form of battle between the settlers and Indigenous, however it is unknown if an Indigenous voice was consulted for the writing of the song. The song attempts to draw attention to the continued issue of colonisation for Indigenous peoples between European settlers in North America.The song is written from both perspectives, covering the Natives' viewpoint in the first verse and the Europeans' in the rest of the song.<br><button id="readLess" onclick="read()">Read Less</button></p>
+                </div>
+                <div>
+                    <iframe id="song" width="300" height="175" src="https://www.youtube.com/embed/5Nf7M9CvFuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>
+                <div id="lyrics"></div>
             </div>
         </div>
+        <footer>&copy; LyricHub 2020</footer>
+    </div>
 
-        <script src="js/sb3.js"></script>
-    </body>
+    <script src="js/sb3.js"></script>
+</body>
 
 </html>
