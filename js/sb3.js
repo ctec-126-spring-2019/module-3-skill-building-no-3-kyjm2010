@@ -2,41 +2,41 @@
 // The verse1(), verse2(), chorus1() and chorus2() are provided to you. You can change the function names and add additonal ones as needed. Be sure to follow the starter code that has been supplied.
 
 function intro() {
-    let output = '<p>White man came across the sea<br>He brought us pain and misery<br>He killed our tribes killed our creed<br>He took our game for his own need<br>We fought him hard we fought him well<br>Out on the plains we gave him hell<br>But many came too much for Cree<br>Oh will we ever be set free?</p>'
+    let output = 'White man came across the sea<br>He brought us pain and misery<br>He killed our tribes killed our creed<br>He took our game for his own need<br>We fought him hard we fought him well<br>Out on the plains we gave him hell<br>But many came too much for Cree<br>Oh will we ever be set free?'
     // your code here
 
     return output
 }
 
 function verse1() {
-    let output = '<p>Riding through dust clouds and barren wastes<br>Galloping hard on the plains<br>Chasing the redskins back to their holes<br>Fighting them at their own game<br>Murder for freedom the stab in the back<br>Women and children are cowards attack</p>'
+    let output = 'Riding through dust clouds and barren wastes<br>Galloping hard on the plains<br>Chasing the redskins back to their holes<br>Fighting them at their own game<br>Murder for freedom the stab in the back<br>Women and children are cowards attack'
     // your code here
 
     return output
 }
 
 function chorus() {
-    let output = '<p>Run to the hills, run for your lives</p>'
+    let output = 'Run to the hills, run for your lives'
     // your code here
 
     return output
 }
 
 function verse2() {
-    let output = '<p>Soldier blue in the barren wastes<br>Hunting and killing their game<br>Raping the women and wasting the men<br>The only good Indians are tame<br>Selling them whiskey and taking their gold<br>Enslaving the young and destroying the old></p>'
+    let output = 'Soldier blue in the barren wastes<br>Hunting and killing their game<br>Raping the women and wasting the men<br>The only good Indians are tame<br>Selling them whiskey and taking their gold<br>Enslaving the young and destroying the old'
     return output
     // your code here
 }
 
 function buildUp() {
-    let output = '<p>ooooooOoOoOOOehhhhEhEhEhEhuhhhh<br>HUhhhHUhhhhHuhhhAAAAAAAAAOOOOOWWWW</p>'
+    let output = 'ehhhhEhEhEhEhuhhhh<br>HUhhhHUhhhhHuhhhAAAAAAAAAOOOOOWWWW'
     return output
 }
 
 
 
 function main() {
-    let finalOutput = "<p><br>[Intro]</p>"+intro()+"<br><br>"+"<p>[Verse 1]</p>"+verse1()+"<br><br>"+"<p>[Chorus]</p>"+chorus()+chorus()+"<br><br>"+"<p>[Verse 2]</p>"+verse2()+"<br><br>"+"<p>[Chorus]</p>"+chorus()+chorus()+"<br><br>"+"<p>[Guitar Solo]</p><br><br>"+"<p>[Build Up]</p>"+buildUp()+"<br><br>"+"<p>[Chorus]</p>"+chorus()+chorus()+chorus()+chorus() // used to build lyrics string
+    let finalOutput = `<p><br>[Intro]<br><br>${intro()}<br><br>[Verse 1]<br><br>${verse1()}<br><br>[Chorus]<br><br>${chorus()}<br><br>${chorus()}<br><br>[Verse 2]<br><br>${verse2()}<br><br>[Chorus]<br><br>${chorus()}<br><br>${chorus()}<br><br>[Guitar Solo]<br><br>[Build Up]}<br><br>${buildUp()}<br><br>[Chorus]}<br><br>${chorus()}<br><br>${chorus()}}<br><br>${chorus()}}<br><br>${chorus()}` // used to build lyrics string
     // call verse and chorus functions
     // each verse/chorus should return text including HTML paragraph tags
 
